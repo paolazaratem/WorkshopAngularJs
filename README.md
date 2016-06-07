@@ -21,3 +21,8 @@ app.controller('myCtrl', function($scope) {
     $scope.firstName= "John";
     $scope.lastName= "Doe";
 });
+
+Expressions:
+{{ expression }}
+ng-bind="expression"
+If you remove the ng-app directive, HTML will display the expression as it is
